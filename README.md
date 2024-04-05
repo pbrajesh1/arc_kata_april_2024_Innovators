@@ -1,6 +1,6 @@
 # Architectural Kata: April 2024: Fish Watch
 
-![Fish Catch](https://flickr.com/photos/rmhowie/6983466899/) 
+![Fish Watch](logo.jpg) 
 
 ## Members
 
