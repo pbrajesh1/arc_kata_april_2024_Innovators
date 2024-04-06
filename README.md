@@ -34,8 +34,12 @@
 
 ## Future Roadmap
 The future enhancements in Fish Watch architecture are based upon the long-term business requirements and evolvability of the application.
+ Following are the current roadmap consideration
+- **Cattle Capabilities**:
+  - Consider extending similar features to cattle monitoring.
+- **Aquarium Integration**:
+  - Allow aquariums to use the system for fish health management.
 
-* TODO
 
 ## References
 * [C4 Model](https://c4model.com/)
