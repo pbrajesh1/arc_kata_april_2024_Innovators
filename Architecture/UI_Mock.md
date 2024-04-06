@@ -49,7 +49,7 @@
 - For large customers with multiple farms:
   - Compare Performance Across Farms.
 
-This is how the diagram looks like:
+Next, we shall showcase couple of screen mockups.
 
 ![Overview](../artifacts/uimockup/Fishoverview.jpg)
 
@@ -65,7 +65,7 @@ This is how the diagram looks like:
 
 ![Alert Details](../artifacts/uimockup/Alert1.jpg)
 
-Next, we shall showcase couple of screen mockups.
+
 
 
 [Previous Page](./SequenceDiagram.md) | [Next Page](./UserStory.md)
