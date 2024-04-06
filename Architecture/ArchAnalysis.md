@@ -73,3 +73,55 @@ Livestock Insights Incorporated, headquartered in Scotland, operates globally. T
   - Ensure compliance with data privacy regulations.
   - Anonymize sensitive data (e.g., individual fish identification).
   - Protect customer and farm information.
+
+## Architecture Styles
+Using the analysis of the key non-functional properties above and with the help of  the [worksheet](https://www.developertoarchitect.com/downloads/architecture-styles-worksheet.pdf), we compared a few styles and finalized one that will give us the most benefits with respect to the non-functional properties above. 
+
+![Architecture Analysis](../artifacts/architecture-styles-worksheet.png)
+
+As shown in the table, Microservices, Service-based and event-based architectures were the most suitable candidates. 
+We selected both the styles for this application
+
+The detailed choice of Microservices architecture is documented in [ADR_001_Architecture_Style](../Architecture_Decision_Reports/ADR_001_Architecture_Style.md).
+
+Here's a high-level architecture based on the provided requirements and considerations:
+
+1. **Data Collection Layer**:
+   - Various **IoT devices** installed in fish farms:
+     - **Water Monitors** capture water quality data (pH, temperature, salinity, oxygen levels, etc.).
+     - **Underwater Cameras** monitor fish health (size, activity, parasite presence).
+     - Data transmitted using **MQTT** for reliability in remote locations.
+
+2. **Data Ingestion and Processing Layer**:
+   - Cloud-based system (e.g., **AWS IoT Core**, **Azure IoT Hub**):
+     - Securely ingests data from IoT devices.
+     - Real-time processing using **Apache Kafka** or **AWS Kinesis**.
+     - Alerts triggered based on predefined thresholds.
+
+3. **Data Storage Layer**:
+   - **Scalable and distributed database**:
+     - **Time-series databases** (e.g., **InfluxDB**) for sensor data.
+     - **PostgreSQL** for metadata (farms, enclosures, fish species).
+
+4. **Data Analysis and ML Layer**:
+   - Generate insights and build predictive models:
+     - **Apache Spark** for large-scale data processing.
+     - **TensorFlow** or **PyTorch** for ML models.
+
+5. **Application Layer**:
+   - Web-based applications for farmers:
+     - **Customizable dashboards** visualize data and insights.
+     - Built with **React** or **Angular**.
+     - Hosted on **AWS** or **Azure** for scalability.
+
+6. **API Layer**:
+   - Provides secure APIs for application layer:
+     - Controlled access to data and system functionalities.
+
+7. **Security Layer**:
+   - Ensures security across all layers:
+     - **Data protection**: Encryption in transit and at rest.
+     - **Access controls** and authentication mechanisms.
+     - Regular security audits.
+
+This architecture allows scalability, flexibility, and potential expansion to other livestock monitoring or use cases.
