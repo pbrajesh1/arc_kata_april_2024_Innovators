@@ -34,3 +34,5 @@
 
 ![User Story](../artifacts/UserStory.png)
 
+[Previous Page](./UI_Mock.md) | [Next Page](./Deployment.md)
+

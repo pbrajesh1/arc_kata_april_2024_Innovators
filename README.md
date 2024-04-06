@@ -23,11 +23,8 @@
 * [System Architecture](./Architecture/SystemArchitecture.md)
 
 * [User Journey](./Architecture/Userjourney.md)
-* [Context Diagram](./Architecture/ContextDiagram.md)
-* [Container Diagram](./Architecture/ContainerDiagram.md)
 * [Component Diagram](./Architecture/ComponentDiagram.md)
 * [Sequence Diagram](./Architecture/SequenceDiagram.md)
-* [UI Mockup](./Architecture/UI_Mock.md)
 * [UI Mockup](./Architecture/UI_Mock.md)
 * [User Story](./Architecture/UserStory.md)
 * [Deployment DIagram](./Architecture/Deployment.md)

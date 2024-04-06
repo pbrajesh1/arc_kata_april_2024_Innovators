@@ -5,4 +5,4 @@ The below component diagram shows the Fish Watch Applicaiton components.
 ![Actor / Action Approach](../artifacts/ComponentDiagramVisio.jpg)
 
 
-[Previous Page](./ArchAnalysis.md) | [Next Page](./ArchAnalysis.mdmd)
+[Previous Page](./Userjourney.md) | [Next Page](./UI_Mock.md)

@@ -125,3 +125,5 @@ Here's a high-level architecture based on the provided requirements and consider
      - Regular security audits.
 
 This architecture allows scalability, flexibility, and potential expansion to other livestock monitoring or use cases.
+
+[Previous Page](./Event-Storming.md) | [Next Page](./UI_Mock.md)

@@ -3,4 +3,4 @@
 ![User Journey](../artifacts/userJourneydiagram.png)
 
 
-[Previous Page](./ArchAnalysis.md) | [Next Page](./ContextDiagram.md)
+[Previous Page](./SystemArchitecture.md) | [Next Page](./ComponentDiagram.md)

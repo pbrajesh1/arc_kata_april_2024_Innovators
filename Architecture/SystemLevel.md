@@ -3,4 +3,4 @@
 ![System Level Diagram](../artifacts/SystemLeveldiagram.png)
 
 
-[Previous Page](./ArchAnalysis.md) | [Next Page](./ContextDiagram.md)
+[Previous Page](./Deployment.md) | [Next Page](./TechnicalStack.md)

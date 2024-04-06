@@ -42,3 +42,5 @@
 This architecture ensures efficient data collection and processing, even in challenging conditions. It delivers crucial information to farmers promptly and provides a foundation for future expansion to handle other livestock or aquariums.
 
 ![System Archtiecture](../artifacts/SystemArchitectureDiagram.png)
+
+[Previous Page](./ArchAnalysis.md) | [Next Page](./Userjourney.md)

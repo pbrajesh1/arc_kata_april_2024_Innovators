@@ -1,4 +1,4 @@
-# Title: Use Java and Spring Boot for Trip Application
+# Title: Use Java and Spring Boot for Fish Watch Application
 
 ## Status
 

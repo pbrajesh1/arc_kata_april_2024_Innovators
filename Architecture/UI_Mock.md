@@ -68,4 +68,4 @@ This is how the diagram looks like:
 Next, we shall showcase couple of screen mockups.
 
 
-[Previous Page](./ComponentDiagram.md) | [Next Page](./ViewTrip.md)
+[Previous Page](./SequenceDiagram.md) | [Next Page](./UserStory.md)

@@ -31,3 +31,5 @@
 Note: Choose technologies based on TCO and team expertise.
 
 ![Technical Stack](../artifacts/TechnicalStack.png)
+
+[Previous Page](./SystemLevel.md) | [Next Page](../Architecture_Decision_Reports)

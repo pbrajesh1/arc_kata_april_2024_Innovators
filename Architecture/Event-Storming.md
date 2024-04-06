@@ -7,4 +7,4 @@ Here is how our Event storming document look like:
 ![Event Storming](../artifacts/FishWatchEventStorming.png)
 
 
-[Previous Page](../README.md) | [Next Page](./ArchAnalysis.md)
+[Previous Page](./ArchAnalysis.md) | [Next Page](./SystemArchitecture.md)
