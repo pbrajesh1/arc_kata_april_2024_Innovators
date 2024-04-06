@@ -19,7 +19,6 @@
 
 ## Solution
 * [Event Storming](./Architecture/Event-Storming.md)
-* [Actor / Action Approach](./Architecture/Brain-Storming.md)
 * [Architecture Analysis](./Architecture/ArchAnalysis.md)
 * [The C4 model](./Architecture/C4.md)
 * [Context Diagram](./Architecture/ContextDiagram.md)
