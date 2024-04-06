@@ -30,6 +30,9 @@ The high-level functional requirements for the new Road Warrior are as follows.
 
 11. **Future Expansion**: Livestock Insights inc is considering providing similar capabilities to cattle, and also allowing aquariums to use the system to look after fish health.
 
+![Functional Flow](../artifacts/Flow_Chart.png)
+
+
 
 
 [Previous Page](./DriversGoals.md) | [Next Page](../README.md#solution)
