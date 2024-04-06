@@ -22,7 +22,7 @@
    - Ensure reliable data transmission.
 
 7. **Cloud Services**:
-   - AWS or Google Cloud (storage, computation, deployment).
+   - Azure or AWS or Google Cloud (storage, computation, deployment).
 
 8. **Containerization & Orchestration**:
    - Docker (develop, ship, run apps).
