@@ -19,3 +19,5 @@
 6. **Scalability**: Ensure the system can handle the data from small farms with ten enclosures to large farms with over a million fish.
 7. **Multi-species Support**: Accommodate farms that may have a variety of different fish species.
 8. **Cross-farm Insights**: For large customers, provide insights across multiple farms.
+
+   [Previous Page](./context.md) | [Next Page](./functional-overview.md)
