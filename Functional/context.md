@@ -14,3 +14,5 @@ Each farm may have a variety of different fish species. For large customers, the
 
 ## Other Considerations
 Fish Watch needs to be accessible from a number of devices, including rugged industrial devices used on the sea during harvest. Fish farms are often in remote locations, where cellular signal may be poor. You can assume that the hardware devices to capture water information and detect fish behaviour already exist, but you need to define how these devices will send the information to the system. Livestock Insights Inc. is considering providing similar capabilities to cattle, and also allowing aquariums to use the system to look after fish health.
+
+[Previous Page](../README.md) | [Next Page](./DriversGoals.md) 
