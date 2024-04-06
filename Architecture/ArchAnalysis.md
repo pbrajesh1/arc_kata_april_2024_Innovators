@@ -77,7 +77,7 @@ Livestock Insights Incorporated, headquartered in Scotland, operates globally. T
 ## Architecture Styles
 Using the analysis of the key non-functional properties above and with the help of  the [worksheet](https://www.developertoarchitect.com/downloads/architecture-styles-worksheet.pdf), we compared a few styles and finalized one that will give us the most benefits with respect to the non-functional properties above. 
 
-![Architecture Analysis](../artifacts/architecture-styles-worksheet.png)
+![Architecture Analysis](../artifacts/ArchitecureStyle.png)
 
 As shown in the table, Microservices, Service-based and event-based architectures were the most suitable candidates. 
 We selected both the styles for this application
