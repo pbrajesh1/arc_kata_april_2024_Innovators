@@ -20,12 +20,19 @@
 ## Solution
 * [Event Storming](./Architecture/Event-Storming.md)
 * [Architecture Analysis](./Architecture/ArchAnalysis.md)
-* [The C4 model](./Architecture/C4.md)
+* [System Architecture](./Architecture/SystemArchitecture.md)
+
+* [User Journey](./Architecture/Userjourney.md)
 * [Context Diagram](./Architecture/ContextDiagram.md)
 * [Container Diagram](./Architecture/ContainerDiagram.md)
 * [Component Diagram](./Architecture/ComponentDiagram.md)
-* [Sequence Diagram](./Architecture/TripExtractionFromEmail.md)
+* [Sequence Diagram](./Architecture/SequenceDiagram.md)
 * [UI Mockup](./Architecture/UI_Mock.md)
+* [UI Mockup](./Architecture/UI_Mock.md)
+* [User Story](./Architecture/UserStory.md)
+* [Deployment DIagram](./Architecture/Deployment.md)
+* [System Level Diagram](./Architecture/SystemLevel.md)
+* [Technical Stack](./Architecture/TechnicalStack.md)
 * [Architectural Decision Records (ADRs)](./Architecture_Decision_Reports)
 
 ## Future Roadmap
