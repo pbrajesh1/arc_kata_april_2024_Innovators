@@ -1,49 +1,16 @@
-# Road Warrior Travel Planning System
+# FishWatch
 
-## Context
+## Company Overview
+Livestock Insights Incorporated is a company headquartered in Scotland, but operating globally. Their main service offering, Fishy Watch, is used by Fish Farmers around the world to monitor their fish, and the fish farms in general. It is able to collect information about individual fish, water quality, and weather information. Fish farmers use this information to understand the health of their livestock, check for signs of parasites and disease, and work out the best time to harvest.
 
-A new startup wants to build the next generation online trip management dashboard to allow travelers to see all of their existing reservations organized by trip either online (web) or through their mobile device.
-The System will interact with the following external actors / entities to develop the Travel Planning System: Email System, Travel Agencies, External Travel System, Social Media, AI/ML/NLP System
+## Requirements
+Each customer of Fish Watch may operate a number of fish farms in different geographical locations. Some customers might have a single farm, but the biggest clients have over a hundred. Each farm is split into different enclosures where the fish are kept. A small farm might have as few as ten enclosures, large farms may have a thousand or more. The biggest farms might have over a million fish.
 
+There are water monitors in each enclosure which capture water quality information including PH, temperature, salinity, oxygen levels and other factors. Underwater cameras are positioned in each enclosure which can get a general view of fish health, looking at size, activity, and whether parasites are detected. A beta feature is live where individual fish can be identified via fish-ual recognition, to monitor the health and lifecycle of an individual fish.
 
+Farmers need to be able to see the collected information in dashboards which they can customise. They also need to be able to specify thresholds at which alerts should be triggered - this could be simple things like a PH going out of bound, but could also involve advanced warnings of adverse weather events which are expected. Farmers track information about the fish harvested from each farm, and this information together with the raw data being collected should be used to build a model of what factors produce good harvests.
 
-### Email System
+Each farm may have a variety of different fish species. For large customers, they will want to be able to drive insights across a number of farms. It’s vital that alerts be generated in a timely manner - a sharp degradation in water quality or adverse weather event could have massive implications if the farmer doesn’t have enough warning. It’s assumed that more detailed information about fish behaviour and water quality etc will become richer over time as we are able to deploy more powerful devices.
 
-Here are the key features of the email System:
-
-- User will select travel related mail ids to be whitelisted
-- The mails from the selected mail ids would be filtered
-- The filtered mails would be polled at a regular interval for updates
-
-
-### AI/ML/NLP System
-
-Here are the key features of the System:
-
-- Filtered message along commands would be sent to external AI/ML/NLP system for processing  
-- The system will return the message in proper format ready to be consumed by the Travel Planner System
-
-### Travel Agencies
-
-Here are the key features of the email System:
-
-- The System will have Travel Agencies onboarded onto the platform
-- Once a trip is created, the system will subscribe to the updates from the corresponding agency for travel updates
-- The travel agency will provide timely updates through its async channels
-- The user will be able to enlist preferred travel agency for emergency requirements
-
-### External Travel Systems
-
-Here are the key features of the External Travel Systems:
-
-- The System will have integration with External Travel Systems like APOLLO, SABRE
-- The external systems will push travel updates to the Trip Planner System for registered users
-
-### Social Media
-
-Here are the key features of the Social Media:
-
-- The Trip information can be shared over social media
-- Filtered information can be accessed from the social media platforms upon clicking the link
-
-[Previous Page](../README.md) | [Next Page](./DriversGoals.md) 
+## Other Considerations
+Fish Watch needs to be accessible from a number of devices, including rugged industrial devices used on the sea during harvest. Fish farms are often in remote locations, where cellular signal may be poor. You can assume that the hardware devices to capture water information and detect fish behaviour already exist, but you need to define how these devices will send the information to the system. Livestock Insights Inc. is considering providing similar capabilities to cattle, and also allowing aquariums to use the system to look after fish health.
