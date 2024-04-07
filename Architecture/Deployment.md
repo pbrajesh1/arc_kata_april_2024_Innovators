@@ -9,4 +9,8 @@ The Physical Deployment diagram example with Azure is as below.
 
 ![Deployment Diagram](../artifacts/FishWatch-reference-architectureAzure.jpg)
 
+
+![Overall Diagram](../artifacts/DeploymentDiagramFarm2.png)
+
+
 [Previous Page](./UserStory.md) | [Next Page](./SystemLevel.md)
