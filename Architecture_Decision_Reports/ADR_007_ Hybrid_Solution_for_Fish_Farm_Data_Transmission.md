@@ -12,6 +12,8 @@ Fish farms are often located in remote areas with poor cellular signal. Reliable
 ## Decision
 We recommend implementing a hybrid approach that leverages both satellite communication and mesh networks:
 
+![Satellite Communication](../artifacts/FishWatch-SateliteCommunication.png)
+
 1. **Satellite Communication:**
    - Utilize satellite networks for data transmission.
    - Data is transmitted from each fish farm to a satellite, which relays it to a ground station.
