@@ -12,7 +12,9 @@ We are developing a mobile application that needs to run on both Android and iOS
 
 * We decided to use Xamarin, an open-source framework from Microsoft that allows building cross-platform apps using a single C# and .NET codebase. 
 * Xamarin extends the .NET development platform with libraries used specifically for building apps for Android, iOS, watchOS, macOS, Tizen and Windows.
-
+* Xamarin Architecture -
+  
+![xamarin-architecture](https://learn.microsoft.com/en-us/xamarin/get-started/what-is-xamarin-images/xamarin-architecture.png)
 
 ## Consequences
 
