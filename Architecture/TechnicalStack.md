@@ -11,7 +11,7 @@
 
 3. **Backend**:
    - Node.js or Django (robust, scalable, good community support).
-   The Decision regarding this is documented in ADR_006_Django%20and%20python%20for%20analytics%20and%20reporting](../Architecture_Decision_Reports/ADR_006_Django%20and%20python%20for%20analytics%20and%20reporting.md)
+   The Decision regarding this is documented in [ADR_006_Django and python for analytics and reporting](../Architecture_Decision_Reports/ADR_006_Django%20and%20python%20for%20analytics%20and%20reporting.md)
 
 
 4. **Frontend**:
@@ -25,7 +25,7 @@
    - MQTT or HTTP (lightweight messaging for sensors).
    - Ensure reliable data transmission.
    The selection of this documented in 
-   [ADR_007_%20Hybrid_Solution_for_Fish_Farm_Data_Transmission](../Architecture_Decision_Reports/ADR_007_%20Hybrid_Solution_for_Fish_Farm_Data_Transmission.md)
+   [ADR_007 Hybrid Solution for Fish Farm Data Transmission](../Architecture_Decision_Reports/ADR_007_%20Hybrid_Solution_for_Fish_Farm_Data_Transmission.md)
 
 7. **Cloud Services**:
    - Azure or AWS or Google Cloud (storage, computation, deployment).
