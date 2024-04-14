@@ -12,8 +12,7 @@
 - Jayesh Prajapati
 
 ## Presentation
- 
-  [![Presentation Video](artifacts/FishWatchArchitecure.mp4)
+ ![](./artifacts/FishWatchArchitecure.mp4) 
 
 
 ## Requirement Analysis
