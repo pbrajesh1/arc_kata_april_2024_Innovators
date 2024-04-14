@@ -8,4 +8,4 @@ Here is how the Sequence Diagram look like:
 ![Actor / Action Approach](../artifacts/sequence%20diagram.png)
 
 
-[Previous Page](./ArchAnalysis.md) | [Next Page](./UI_Mock.md)
+[Previous Page](./ComponentDiagram.md) | [Next Page](./UI_Mock.md)
