@@ -12,8 +12,7 @@
 - Jayesh Prajapati
 
 ## Presentation
- ![Presentation](./artifacts/FishWatchArchitecure.mp4) 
-
+<video controls src="artifacts/FishWatchArchitecure.mp4" title="Fish Watch Architecure"></video>
 
 ## Requirement Analysis
 
