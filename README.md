@@ -12,7 +12,7 @@
 - Jayesh Prajapati
 
 ## Presentation
-!Watch the video
+* [Presentation Video](./artifacts/FishWatchArchitecure.mp4)
 <video controls src="artifacts/FishWatchArchitecure.mp4" title="Fish Watch Architecure"></video>
 
 
